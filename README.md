@@ -81,6 +81,7 @@ To deploy Easytrade in kubernetes you need to have:
 ```bash
 # first create the namespace for it
 kubectl create namespace easytrade
+kubectl create namespace cross-charging
 
 # then use the manifests to deploy
 kubectl -n easytrade apply -f ./kubernetes-manifests/release
